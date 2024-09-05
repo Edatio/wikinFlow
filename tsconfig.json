@@ -13,15 +13,15 @@
       "declaration": true,                        // Generates `.d.ts` declaration files.
       "baseUrl": "./",                            // Base directory for resolving non-relative module imports.
       "paths": {                                  // Aliases for module imports.
-        "@components/*": ["src/components/*"],
-        "@utils/*": ["src/utils/*"]
+        "@components/*": ["./src/components/*"],
+        "@utils/*": ["./src/utils/*"]
       },
       "outDir": "./dist",                         // Directory for compiled output.
       "rootDir": "./src",                         // Root directory for input files.
       "noEmit": false,                            // Prevents emitting compiled files.
       "removeComments": true                      // Removes comments from output.
     },
-    "include": ["src/**/*"],                      // Files and directories included in the compilation.
+    "include": ["./src/**/*"],                      // Files and directories included in the compilation.
     "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.test.tsx"] // Files and directories excluded.
   }
   

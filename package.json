@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite", 
+    "serve": "vite preview"
+  },
   "dependencies": {
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
@@ -7,7 +12,9 @@
     "path": "^0.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "rollup-plugin-copy": "^3.5.0",
     "typescript": "^5.5.4",
+    "url": "^0.11.4",
     "vite": "^5.4.3"
   }
 }
